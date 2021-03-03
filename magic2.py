@@ -171,13 +171,7 @@ current_time = time(
     second=current_date.second,
     microsecond=current_date.microsecond
 )
-'''
-current_time = time(
-    hour=10,
-    minute=46,
-    second=0,
-    microsecond=0
-)'''
+
 five_minute_earlier = time(hour=current_time.hour, minute=current_time.minute-5, second=current_time.second)
 five_minute_after = time(hour=current_time.hour, minute=current_time.minute+5, second=current_time.second)
 
